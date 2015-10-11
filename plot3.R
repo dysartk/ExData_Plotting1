@@ -29,7 +29,7 @@ x <- epc_3$Time_2
 a <- epc_3$Sub_metering_1
 b <- epc_3$Sub_metering_2
 c <- epc_3$Sub_metering_3
-png(file = "plot3_2.png", width = 480, height = 480)
+png(file = "plot3.png", width = 480, height = 480)
 plot(x,a, type = "l", xlab = " ", ylab = "Energy sub metering")
 points(x,b, type = "l", col = "blue")
 points(x,c, type = "l", col = "red")
