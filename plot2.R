@@ -27,6 +27,6 @@ epc_3 <- subset(epc_2, epc_2$Date > "2007-01-31" & epc_2$Date < "2007-02-03")
 ## Make Plot #2
 x <- epc_3$Time_2
 y <- epc_3$Global_active_power
+png(file = "plot2.png", width = 480, height = 480)
 plot(x,y, type = "l", ylab = "Global Active Power (kilowatts)", xlab = " ")
-dev.copy(png, file = "plot2.png")
 dev.off()

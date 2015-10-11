@@ -25,6 +25,6 @@ Date_2 <- as.Date("2007-02-02")
 ## Subset data based on dates
 epc_3 <- subset(epc_2, epc_2$Date > "2007-01-31" & epc_2$Date < "2007-02-03")
 ## Make Plot #1
+png(file = "plot1.png", width = 480, height = 480)
 hist(epc_3$Global_active_power, col = "red", xlab = "Global Active Power(kilowatts)", main = "Global Active Power")
-dev.copy(png, file = "plot1.png")
 dev.off()
