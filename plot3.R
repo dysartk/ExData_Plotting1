@@ -24,7 +24,7 @@ Date_1 <- as.Date("2007-02-01")
 Date_2 <- as.Date("2007-02-02")
 ## Subset data based on dates
 epc_3 <- subset(epc_2, epc_2$Date > "2007-01-31" & epc_2$Date < "2007-02-03")
-## Make Plot #2
+## Make Plot #3
 x <- epc_3$Time_2
 y <- epc_3$Global_active_power
 a <- epc_3$Sub_metering_1
