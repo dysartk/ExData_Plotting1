@@ -1,1 +1,3 @@
 Contained in my forked repository are the 4 png files and the R scripts used to create them. I chose to directly 
+download and unzip the file from the UCI website for each plot. I also chose to repeat this process for each plot instead 
+of creating a 5th script for just the data retrieval and cleaning.
