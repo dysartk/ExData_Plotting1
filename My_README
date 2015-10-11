@@ -2,3 +2,5 @@ Contained in my forked repository are the 4 png files and the R scripts used to 
 download and unzip the file from the UCI website for each plot. I also chose to repeat this process for each plot instead 
 of creating a 5th script for just the data retrieval and cleaning.
 I have run all the current scripts and have uploaded the current plots that match.
+I have seen some discussion on the boards regarding the figures in the original repo having checkered backgrounds. I have left them figures
+with treansparent backgrounds as they are in every other place you see them.
